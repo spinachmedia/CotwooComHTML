@@ -5,3 +5,21 @@ h1 {
 #two h2 {
     text-align: center;
 }
+span.image.fit {
+    background-color: #d6d6d6 !important;
+}
+.block {
+    position: relative;
+    width: 100%;
+    height: 231px;
+    padding: 0px;
+}
+.block-inner {
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%,-50%);
+    color: #FFF;
+}
